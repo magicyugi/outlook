@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twitter-login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "mail": "nodemon mail-code.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14",
+    "puppeteer": "^10.4.0"
+  }
+}
