@@ -181,7 +181,7 @@ const loginTW = async(results) => {
             // 填写验证码
             await page.type('input[autocomplete="on"]', verificationCode, { delay: 100 });
             page.click('div[data-testid="ocfEnterTextNextButton"]');
-            await page.waitForSelector('div[data-testid="SideNav_AccountSwitcher_Button"]', { timeout: 30000 });
+            await page.waitForSelector('div[data-testid="SideNav_AccountSwitcher_Button"]', { timeout: 60000 });
 
             connection.query('update account set first = 0 where name="'+item.name+'"', function(error, results, fields){
               
